@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row if needed */
+    justify-content: center; /* Aligns items horizontally at the center */
+    align-items: center; /* Aligns items vertically at the center of each row */
+    gap: 10px; /* Adds spacing between items (optional, adjust as needed) */
+}
